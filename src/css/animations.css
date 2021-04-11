@@ -1,0 +1,52 @@
+@keyframes slide_right{
+    0%{left: 20px}
+    100%{left: 46px}
+}
+
+@keyframes slide_left{
+    100%{left: 20px}
+    0%{left: 0px}
+}
+
+@keyframes spin{
+    from{
+        transform:rotateZ(0deg)
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes appear{
+    from{
+        opacity: 0%
+    }
+    to{
+        opacity: 100%;
+    }
+}
+@keyframes disappear{
+    from{
+        opacity: 100%
+    }
+    to{
+        opacity: 0%;
+    }
+}
+
+@keyframes cool{
+    from{
+        transform: rotateX(0deg)
+    }
+    to{
+        transform: rotateX(360deg)
+    }
+}
+@keyframes rotate{
+    from{
+        transform: rotateY(0deg)
+    }
+    to{
+        transform: rotateY(360deg)
+    }
+}
