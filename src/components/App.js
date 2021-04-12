@@ -3,7 +3,7 @@ import {useEffect, useState} from 'react';
 import '../css/App.css';
 import '../css/classes.css';
 import '../css/animations.css';
-import {Blink, Sound, Enter, MoveCursor} from '../functions/coolEffects';
+import {Blink, Sound, Enter, MoveCursor, ShowDivs} from '../functions/coolEffects';
 import Welcome from "./welcome";
 import Main from "./Main";
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -18,7 +18,7 @@ export default function App() {
   useEffect(
     Blink,
     Enter(),
-    MoveCursor(),
+    MoveCursor()
   )
   
 
