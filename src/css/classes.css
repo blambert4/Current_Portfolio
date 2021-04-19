@@ -25,3 +25,13 @@
 .rotateY{
     animation:  cool 2s infinite linear;
 }
+.craxy{
+    border: solid;
+}
+.craxy:hover .cray{
+    color: green
+}
+.slide{
+    animation: slide_right 12s infinite linear;
+    color: white
+}
