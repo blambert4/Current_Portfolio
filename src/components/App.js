@@ -8,10 +8,10 @@ import Welcome from "./welcome";
 import Main from "./Main";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faChevronRight, faPlus, faInfoCircle} from '@fortawesome/free-solid-svg-icons'
+import { faChevronRight, faPlus, faInfoCircle, faEnvelope} from '@fortawesome/free-solid-svg-icons'
 
 
-library.add(faChevronRight, fab, faPlus, faInfoCircle)
+library.add(faChevronRight, fab, faPlus, faInfoCircle, faEnvelope)
 export default function App() {
   
 

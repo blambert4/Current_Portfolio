@@ -17,10 +17,10 @@
 }
 
 .spin{
-    animation: spin 2s infinite linear;
+    animation: spin 5s infinite linear;
 }
 .rotate{
-    animation: rotate 2s infinite linear;
+    animation: rotate 5s infinite linear;
 }
 .rotateY{
     animation:  cool 2s infinite linear;
@@ -32,6 +32,12 @@
     color: green
 }
 .slide{
-    animation: slide_right 12s infinite linear;
+    animation: slide_right 18s infinite linear;
     color: white
+}
+.vb{
+    
+}
+.vb:hover{
+    color: teal
 }
