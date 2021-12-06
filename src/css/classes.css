@@ -32,7 +32,7 @@
     color: green
 }
 .slide{
-    animation: slide_right 18s infinite linear;
+    animation: slide_right 30s infinite linear;
     color: white
 }
 .vb{

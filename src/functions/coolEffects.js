@@ -33,7 +33,7 @@ export function Enter(){
     })
 }
 
-export function MoveCursor(){
+ export function MoveCursor(){
   window.addEventListener("keydown", (e)=>{
     var objImage = document.getElementById("c");
     var y = parseInt(objImage.style.top, 10)
@@ -146,6 +146,8 @@ export function MoveCursorMouse1(){
   var zz = document.getElementById("j")
   var zzz = document.getElementById("q")
   var q = document.getElementById("lz")
+  var qq = document.getElementById("pt")
+
   objImage.style.top = "25%";
   words[0].style.color = "teal";
   words[0].style.cursor = "pointer";
@@ -156,6 +158,7 @@ export function MoveCursorMouse1(){
   zz.style.display = "inline-block";
   zzz.style.display = "none";
   q.style.display = "none";
+  qq.style.display = "none"
 }
 export function MoveCursorMouse2(){
   var objImage = document.getElementById("c");
@@ -164,6 +167,7 @@ export function MoveCursorMouse2(){
   var zz = document.getElementById("j")
   var zzz = document.getElementById("q")
   var q = document.getElementById("lz")
+  var qq = document.getElementById("pt")
 
   objImage.style.top = "35%";
   words[1].style.color = "teal";
@@ -175,6 +179,7 @@ export function MoveCursorMouse2(){
   zz.style.display = "none";
   zzz.style.display = "none";
   q.style.display = "none";
+  qq.style.display = "none"
 }
 
 export function MoveCursorMouse3(){
@@ -184,6 +189,7 @@ export function MoveCursorMouse3(){
   var zz = document.getElementById("j")
   var zzz = document.getElementById("q")
   var q = document.getElementById("lz")
+  var qq = document.getElementById("pt")
 
   objImage.style.top = "45%";
   words[2].style.color = "teal";
@@ -195,6 +201,7 @@ export function MoveCursorMouse3(){
   zz.style.display = "none";
   zzz.style.display = "inline-block";
   q.style.display = "none";
+  qq.style.display = "none"
 }
 export function MoveCursorMouse4(){
   var objImage = document.getElementById("c");
@@ -203,7 +210,7 @@ export function MoveCursorMouse4(){
   var zz = document.getElementById("j")
   var zzz = document.getElementById("q")
   var q = document.getElementById("lz")
-
+  var qq = document.getElementById("pt")
   objImage.style.top = "55%";
   words[3].style.color = "teal";
   words[3].style.cursor = "pointer";
@@ -214,6 +221,7 @@ export function MoveCursorMouse4(){
   zz.style.display = "none";
   zzz.style.display = "none";
   q.style.display = "inline-block";
+  qq.style.display = "inline-block";
 }
 export function stopTicker(){
   var x = document.getElementById("p")
@@ -222,4 +230,14 @@ export function stopTicker(){
 export function goTicker(){
   var x = document.getElementById("p")
   x.style.animationPlayState = "running"
+}
+
+export function Blink2(){
+  var tree = document.getElementById("trees")
+  setInterval(() => {
+    tree.style.color = "teal"
+  }, 1000);
+  setInterval(() => {
+    tree.style.color = "white"
+  }, 2000);
 }
