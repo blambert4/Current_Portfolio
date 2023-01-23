@@ -5,26 +5,7 @@ import me from "../../images/me.jpg";
 export function MyStack(){
     return(
         <div>
-            <article id = "k" style = {{color: "white", display: 'none' ,position: "absolute", top: "20%", left: "30%", width: "1000px", height: "500px", textAlign: "left", padding: "10px"}}>
-                <h1> What do I know?</h1>
-                <p> While my experience is on the short, I have a mastery of the basic front-end development skills such as
-                    <ul>
-                        <li> HTML</li>
-                        <li> CSS</li>
-                        <li> Javascript</li>
-                    </ul>
-                however, my skills don't stop there! I have proficiencies in the following technologies
-                    <ul>
-                        <li> Bootstrap</li>
-                        <li> ReactJS</li>
-                        <li> NodeJS</li>
-                        <li> Django</li>
-                        <li> PostgreSQL</li>
-                        <li> Git /</li>
-                        <li> etc (ask me about it)</li>
-                    </ul>
-                </p>
-            </article>
+            
         </div>        
     )
 }
